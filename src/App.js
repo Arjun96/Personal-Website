@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Layout>
+            <Header title="Arjun Luthra" scroll>
+                <Navigation>
+                    <a href="/">Resume</a>
+                    <a href="/">Projects</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Contact Me</a>
+                </Navigation>
+            </Header>
+            <Drawer title="Title">
+                <Navigation>
+                    <a href="/">Resume</a>
+                    <a href="/">Projects</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Contact Me</a>
+                </Navigation>
+            </Drawer>
+            <Content>
+                <div className="page-content" />
+            </Content>
+        </Layout>
     </div>
   );
 }
