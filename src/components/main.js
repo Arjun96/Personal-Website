@@ -6,6 +6,7 @@ import Contact from './contact';
 import Resume from './resume';
 import Projects from './projects';
 
+//Settings the routes to each of the different pages
 const Main = () => (
 
     <Switch>
