@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <Layout>
-            <Header title="Arjun Luthra" scroll>
+            <Header className="header-color" title="Arjun Luthra" scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
