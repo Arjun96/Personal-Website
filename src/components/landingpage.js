@@ -18,6 +18,7 @@ class LandingPage extends Component{
                         <div className='banner-text'>
                             <h1>Software Engineer</h1>
                             <hr/>
+                            <p>Java | Python | C/C++ | HTML/CSS | Javascript | React | NodeJS | SQL</p>
                         </div>
                     </Cell>
                 </Grid>
