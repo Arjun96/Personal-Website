@@ -15,6 +15,10 @@ class LandingPage extends Component{
                             alt="avatar"
                             className="avatar-img"
                         />
+                        <div className='banner-text'>
+                            <h1>Software Engineer</h1>
+                            <hr/>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
