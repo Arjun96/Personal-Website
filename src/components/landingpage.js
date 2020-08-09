@@ -16,9 +16,28 @@ class LandingPage extends Component{
                             className="avatar-img"
                         />
                         <div className='banner-text'>
+
                             <h1>Software Engineer</h1>
                             <hr/>
                             <p>Java | Python | C/C++ | HTML/CSS | Javascript | React | NodeJS | SQL</p>
+
+                            <div className="social-links">
+
+                                {/* Linkedin */}
+                                <a href="https://www.linkedin.com/in/arjun-luthra/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-linkedin-square"  aria-hidden="true"/>
+                                </a>
+
+                                {/* Github */}
+                                <a href="https://github.com/Arjun96" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-github-square"  aria-hidden="true"/>
+                                </a>
+
+                                {/* Email */}
+                                <a href="https://devpost.com/ArjunL?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-code"  aria-hidden="true"/>
+                                </a>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
