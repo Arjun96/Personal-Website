@@ -34,7 +34,7 @@ class LandingPage extends Component{
                                 </a>
 
                                 {/* Email */}
-                                <a href="https://devpost.com/ArjunL?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer">
+                                <a href="https://devpost.com/ArjunL" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-code"  aria-hidden="true"/>
                                 </a>
                             </div>
