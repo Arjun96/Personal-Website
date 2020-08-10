@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Grid, Cell,Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl';
+import {Grid, Cell,Card, CardTitle, CardActions, Button, CardText} from 'react-mdl';
 
 class Projects extends Component{
 
@@ -24,6 +24,7 @@ class Projects extends Component{
                                 <CardText>I started this project in August 2020 as an attempt to create my first full stack web application from the ground up and brush up on my 
                                     web development skills. This website will serve also serve as my portfolio and be used to showcase my projects.
                                 </CardText>
+                                <br></br>
                                 <CardActions border>
                                     {/* Personal Website Github */}
                                     <a href='https://github.com/Arjun96/Arjun96.github.io' target="_blank" rel="noopener noreferrer">
@@ -35,9 +36,6 @@ class Projects extends Component{
                                         <Button colored>Live Demo</Button>
                                     </a>
                                 </CardActions>
-                                <CardMenu style ={{color: '#fff'}}>
-                                    <IconButton name="share"/>
-                                </CardMenu>
                             </Card>
 
                             {/* Magicam */}
@@ -65,9 +63,6 @@ class Projects extends Component{
                                         <Button colored>Demo 2</Button>
                                     </a>
                                 </CardActions>
-                                <CardMenu style ={{color: '#fff'}}>
-                                    <IconButton name="share"/>
-                                </CardMenu>
                             </Card>
 
                             {/* Facetag */}
@@ -92,9 +87,6 @@ class Projects extends Component{
                                             Devpost </Button>
                                     </a>
                                 </CardActions>
-                                <CardMenu style ={{color: '#fff'}}>
-                                    <IconButton name="share"/>
-                                </CardMenu>
                             </Card>
 
                         </div>
