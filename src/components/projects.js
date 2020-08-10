@@ -38,6 +38,8 @@ class Projects extends Component{
                                 </CardActions>
                             </Card>
 
+                            <br></br>
+
                             {/* Magicam */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
@@ -64,6 +66,8 @@ class Projects extends Component{
                                     </a>
                                 </CardActions>
                             </Card>
+
+                            <br></br>
 
                             {/* Facetag */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
