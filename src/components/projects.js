@@ -38,10 +38,6 @@ class Projects extends Component{
                                         <Button colored>
                                             Github </Button>
                                     </a>
-                                    {/* Personal Website Link */}
-                                    <a href='https://arjunluthra.com' target="_blank" rel="noopener noreferrer">
-                                        <Button colored>Live Demo</Button>
-                                    </a>
                                 </CardActions>
                             </Card>
 
