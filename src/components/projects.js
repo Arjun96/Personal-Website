@@ -29,7 +29,6 @@ class Projects extends Component{
                                         <Button colored>
                                             Github </Button>
                                     </a>
-
                                     <a href='https://arjunluthra.com' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Live Demo</Button>
                                     </a>
@@ -54,11 +53,9 @@ class Projects extends Component{
                                         <Button colored>
                                             Devpost </Button>
                                     </a>
-
                                     <a href='https://www.youtube.com/watch?v=4o74Fb1uQYc' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Demo 1</Button>
                                     </a>
-
                                     <a href='https://www.youtube.com/watch?v=xpLB4pwLOMk' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Demo 2</Button>
                                     </a>
@@ -83,7 +80,6 @@ class Projects extends Component{
                                 <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Github</Button>
                                     </a>
-
                                     <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
                                             Devpost </Button>
@@ -94,13 +90,12 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
 
-                    </div>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
         )
     }
-
 }
 
 export default Projects;
