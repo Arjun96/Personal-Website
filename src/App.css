@@ -62,4 +62,5 @@
 
 .projects-grid {
   display: flex;
+  text-align: left;
 }
