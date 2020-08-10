@@ -25,10 +25,12 @@ class Projects extends Component{
                                     web development skills. This website will serve also serve as my portfolio and be used to showcase my projects.
                                 </CardText>
                                 <CardActions border>
+                                    {/* Personal Website Github */}
                                     <a href='https://github.com/Arjun96/Arjun96.github.io' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
                                             Github </Button>
                                     </a>
+                                    {/* Personal Website Link */}
                                     <a href='https://arjunluthra.com' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Live Demo</Button>
                                     </a>
@@ -49,13 +51,16 @@ class Projects extends Component{
                                 </CardText>
                                 <br></br>
                                 <CardActions border>
+                                    {/* Magicam Devpost */}
                                     <a href='https://devpost.com/software/magicam-9ij0zr' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
                                             Devpost </Button>
                                     </a>
+                                    {/* Magicam Youtube Link #1 */}
                                     <a href='https://www.youtube.com/watch?v=4o74Fb1uQYc' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Demo 1</Button>
                                     </a>
+                                    {/* Magicam Youtube Link #2 */}
                                     <a href='https://www.youtube.com/watch?v=xpLB4pwLOMk' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Demo 2</Button>
                                     </a>
@@ -77,9 +82,11 @@ class Projects extends Component{
                                 </CardText>
                                 <br></br>
                                 <CardActions border>
-                                <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
+                                    {/* Facecam Github */}
+                                    <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Github</Button>
                                     </a>
+                                    {/* Facecam Devpost */}
                                     <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
                                             Devpost </Button>
