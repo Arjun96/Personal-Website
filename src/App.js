@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom'
+import pdf from './resume.pdf'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <Header className="header-color" title="Arjun Luthra" scroll>
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
-                {/* <Link to="/files/resume.pdf" target="_blank" download>Resume</Link> */}
+                <Link to={pdf} target="_blank" download>Resume</Link>
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
@@ -20,7 +21,7 @@ function App() {
           <Drawer>
               <Navigation>
                 <Link to="/">Home</Link>
-                {/* <Link to="/resume">Resume</Link> */}
+                <Link to={pdf} target="_blank" download>Resume</Link>
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
