@@ -11,16 +11,18 @@ class Projects extends Component{
     render() {
         return(
             <div className="category-tabs">
+
+                <br></br>
+                <br></br>
                 
-                <br></br>
-                <br></br>
+                <h1>Past Projects</h1>
 
                 <Grid>
                     <Cell col={12}>
                         <div className="projects-grid">
 
                             {/* Personal Website */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Personal Website
@@ -29,6 +31,7 @@ class Projects extends Component{
                                     web development skills. This website will serve also serve as my portfolio and be used to showcase my projects.
                                 </CardText>
                                 <br></br>
+                                <CardText>August 2020</CardText>
                                 <CardActions border>
                                     {/* Personal Website Github */}
                                     <a href='https://github.com/Arjun96/Arjun96.github.io' target="_blank" rel="noopener noreferrer">
@@ -44,8 +47,35 @@ class Projects extends Component{
 
                             <br></br>
 
+                            {/* Facetag */}
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
+                                <CardTitle style={{color:'#000000', height: '176px', 
+                                background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
+                                    Facetag
+                                </CardTitle>
+                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. 
+                                    Collaborated with 3 other contestants to impose videos on top of real world objects. 
+                                    This app was awarded the first place prize at the event.
+                                </CardText>
+                                <br></br>
+                                <CardText>March 2016</CardText>
+                                <CardActions border>
+                                    {/* Facecam Github */}
+                                    <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
+                                        <Button colored>Github</Button>
+                                    </a>
+                                    {/* Facecam Devpost */}
+                                    <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
+                                        <Button colored>
+                                            Devpost </Button>
+                                    </a>
+                                </CardActions>
+                            </Card>
+                            
+                            <br></br>
+
                             {/* Magicam */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif) center / cover'}}>
                                     Magicam
@@ -54,6 +84,7 @@ class Projects extends Component{
                                     impose videos on top of real world objects. This app was awarded the first place prize at the event.
                                 </CardText>
                                 <br></br>
+                                <CardText>November 2015</CardText>
                                 <CardActions border>
                                     {/* Magicam Devpost */}
                                     <a href='https://devpost.com/software/magicam-9ij0zr' target="_blank" rel="noopener noreferrer">
@@ -67,32 +98,6 @@ class Projects extends Component{
                                     {/* Magicam Youtube Link #2 */}
                                     <a href='https://www.youtube.com/watch?v=xpLB4pwLOMk' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Demo 2</Button>
-                                    </a>
-                                </CardActions>
-                            </Card>
-
-                            <br></br>
-
-                            {/* Facetag */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
-                                <CardTitle style={{color:'#000000', height: '176px', 
-                                background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
-                                    Facetag
-                                </CardTitle>
-                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. 
-                                    Collaborated with 3 other contestants to impose videos on top of real world objects. 
-                                    This app was awarded the first place prize at the event.
-                                </CardText>
-                                <br></br>
-                                <CardActions border>
-                                    {/* Facecam Github */}
-                                    <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
-                                        <Button colored>Github</Button>
-                                    </a>
-                                    {/* Facecam Devpost */}
-                                    <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
-                                        <Button colored>
-                                            Devpost </Button>
                                     </a>
                                 </CardActions>
                             </Card>
