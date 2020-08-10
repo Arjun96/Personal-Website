@@ -42,12 +42,13 @@ class Projects extends Component{
                             {/* Magicam */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
-                                background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
+                                background: 'url(https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif) center / cover'}}>
                                     Magicam
                                 </CardTitle>
                                 <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. Collaborated with 3 other contestants to
                                     impose videos on top of real world objects. This app was awarded the first place prize at the event.
                                 </CardText>
+                                <br></br>
                                 <CardActions border>
                                     <a href='https://devpost.com/software/magicam-9ij0zr' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
@@ -70,13 +71,14 @@ class Projects extends Component{
                             {/* Facetag */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
-                                background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
+                                background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
                                 </CardTitle>
                                 <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. 
                                     Collaborated with 3 other contestants to impose videos on top of real world objects. 
                                     This app was awarded the first place prize at the event.
                                 </CardText>
+                                <br></br>
                                 <CardActions border>
                                 <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Github</Button>
