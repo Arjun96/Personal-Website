@@ -11,6 +11,10 @@ class Projects extends Component{
     render() {
         return(
             <div className="category-tabs">
+                
+                <br></br>
+                <br></br>
+
                 <Grid>
                     <Cell col={12}>
                         <div className="projects-grid">
