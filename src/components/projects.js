@@ -15,7 +15,8 @@ class Projects extends Component{
                     <Cell col={12}>
                         <div className="projects-grid">
 
-                            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+                            {/* Personal Website */}
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Personal Website
@@ -38,14 +39,14 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
 
-                            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+                            {/* Magicam */}
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Magicam
                                 </CardTitle>
-                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. Me and my team of 3 other people were able to impose videos 
-                                    on top of real world objects. During the hackathon we took sponsor stickers and imposed a unique video depending on which
-                                    sticker was scanned in the app. This app was awarded the first place prize.
+                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. Collaborated with 3 other contestants to
+                                    impose videos on top of real world objects. This app was awarded the first place prize at the event.
                                 </CardText>
                                 <CardActions border>
                                     <a href='https://devpost.com/software/magicam-9ij0zr' target="_blank" rel="noopener noreferrer">
@@ -66,21 +67,24 @@ class Projects extends Component{
                                 </CardMenu>
                             </Card>
 
-                            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+                            {/* Facetag */}
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Facetag
                                 </CardTitle>
-                                <CardText>
+                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. 
+                                    Collaborated with 3 other contestants to impose videos on top of real world objects. 
+                                    This app was awarded the first place prize at the event.
                                 </CardText>
                                 <CardActions border>
-                                    <a href='https://github.com/Arjun96/Arjun96.github.io' target="_blank" rel="noopener noreferrer">
-                                        <Button colored>
-                                            Devpost </Button>
+                                <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
+                                        <Button colored>Github</Button>
                                     </a>
 
-                                    <a href='https://arjunluthra.com' target="_blank" rel="noopener noreferrer">
-                                        <Button colored>Live Demo</Button>
+                                    <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
+                                        <Button colored>
+                                            Devpost </Button>
                                     </a>
                                 </CardActions>
                                 <CardMenu style ={{color: '#fff'}}>
