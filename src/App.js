@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
         <Layout>
-          <Header className="header-color" title="Arjun Luthra" scroll>
-            <Navigation>
+          <Header className="header-color" title="Portfolio Website" scroll>
+            <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
                 {/* <Link to="/resume">Resume</Link> */}
                 <Link to="/projects">Projects</Link>
@@ -17,7 +17,7 @@ function App() {
                 {/* <Link to="/contact">Contact Me</Link> */}
             </Navigation>
           </Header>
-          <Drawer title="Arjun Luthra">
+          <Drawer>
               <Navigation>
                 <Link to="/">Home</Link>
                 {/* <Link to="/resume">Resume</Link> */}
