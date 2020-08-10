@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
         <Layout>
-          <Header className="header-color" title="Portfolio Website" scroll>
+          <Header className="header-color" title="Arjun Luthra" scroll>
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
-                {/* <Link to="/resume">Resume</Link> */}
+                {/* <Link to="/files/resume.pdf" target="_blank" download>Resume</Link> */}
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
