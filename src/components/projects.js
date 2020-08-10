@@ -67,7 +67,7 @@ class Projects extends Component{
 
                             {/* Facetag */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
-                                <CardTitle style={{color:'#fff', height: '176px', 
+                                <CardTitle style={{color:'#000000', height: '176px', 
                                 background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
                                 </CardTitle>
