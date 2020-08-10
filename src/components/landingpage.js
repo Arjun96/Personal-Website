@@ -24,17 +24,17 @@ class LandingPage extends Component{
                             <div className="social-links">
 
                                 {/* Linkedin */}
-                                <a href="https://www.linkedin.com/in/arjun-luthra/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/arjun-luthra/" target="_blank" rel="noopener noreferrer" title="Linkedin">
                                     <i className="fa fa-linkedin-square"  aria-hidden="true"/>
                                 </a>
 
                                 {/* Github */}
-                                <a href="https://github.com/Arjun96" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/Arjun96" target="_blank" rel="noopener noreferrer" title="Github">
                                     <i className="fa fa-github-square"  aria-hidden="true"/>
                                 </a>
 
                                 {/* Email */}
-                                <a href="https://devpost.com/ArjunL" target="_blank" rel="noopener noreferrer">
+                                <a href="https://devpost.com/ArjunL" target="_blank" rel="noopener noreferrer" title="Devpost">
                                     <i class="fa fa-code"  aria-hidden="true"/>
                                 </a>
                             </div>
