@@ -8,20 +8,22 @@ function App() {
   return (
     <div className="App">
         <Layout>
-            <Header className="header-color" title="Arjun Luthra" scroll>
+          <Header className="header-color" title="Arjun Luthra" scroll>
                 <Navigation>
+                    <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/contact">Contact Me</Link>
                 </Navigation>
-            </Header>
+              </Header>
             <Drawer title="Arjun Luthra">
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/contact">Contact Me</Link>
+                  <Link to="/">Home</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/aboutme">About Me</Link>
+                  <Link to="/contact">Contact Me</Link>
                 </Navigation>
             </Drawer>
             <Content>
