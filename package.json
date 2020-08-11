@@ -1,6 +1,6 @@
 {
-  "homepage": "https://arjunluthra.com/personal-website",
-  "name": "personal_website",
+  "homepage": "https://arjun.luthra.com/",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
