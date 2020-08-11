@@ -22,14 +22,13 @@ class Projects extends Component{
                         <div className="projects-grid">
 
                             {/* Personal Website */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Personal Website
                                 </CardTitle>
                                 <CardText> This website was created as an attemp to brush up on my web development skills and to have a central place that I can showcase my portfolio.
                                 </CardText>
-                                <br></br>
                                 <CardText>August 2020</CardText>
                                 <CardActions border>
                                     {/* Personal Website Github */}
@@ -43,7 +42,7 @@ class Projects extends Component{
                             <br></br>
 
                             {/* Facetag */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#000000', height: '176px', 
                                 background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
@@ -67,7 +66,7 @@ class Projects extends Component{
                             <br></br>
 
                             {/* Magicam */}
-                            <Card shadow={5} style={{minWidth:'450', minHeight:'450px', margin: 'auto'}}>
+                            <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
                                 background: 'url(https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif) center / cover'}}>
                                     Magicam
