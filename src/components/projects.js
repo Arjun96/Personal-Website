@@ -24,7 +24,7 @@ class Projects extends Component{
                             {/* Personal Website */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
                                 <CardTitle style={{color:'#fff', height: '176px', 
-                                background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
+                                background: 'url(https://ngninja.com/assets/posts/reactjs-102f9693a4201e678d5b02185717f4e2127d082c2f8afc0ed378cfc6cd814741.png) center / cover'}}>
                                     Personal Website
                                 </CardTitle>
                                 <CardText> This website was created so that I have a place that I can showcase my portfolio as a Software Engineer.
