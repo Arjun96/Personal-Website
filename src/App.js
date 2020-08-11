@@ -14,7 +14,7 @@ function App() {
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
-                <a href={pdf} target="_blank">Resume</a>
+                <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
             </Navigation>
@@ -23,7 +23,7 @@ function App() {
               <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
-                <a href={pdf} target="_blank">Resume</a>
+                <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
               </Navigation>
