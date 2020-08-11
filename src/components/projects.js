@@ -50,7 +50,6 @@ class Projects extends Component{
                                 </CardTitle>
                                 <CardText> An Android App that allowed you to scan a user's face and receive the social media profiles that user has connected to the app.
                                 </CardText>
-                                <br></br>
                                 <CardText>March 2016</CardText>
                                 <CardActions border>
                                     {/* Facetag Github */}
