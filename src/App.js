@@ -12,8 +12,8 @@ function App() {
           <Header className="header-color" title="Arjun Luthra" scroll>
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
-                <Link to={pdf} target="_blank">Resume</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to={pdf} target="_blank">Resume</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
             </Navigation>
@@ -21,8 +21,8 @@ function App() {
           <Drawer title="Arjun Luthra">
               <Navigation>
                 <Link to="/">Home</Link>
-                <Link to={pdf} target="_blank">Resume</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to={pdf} target="_blank">Resume</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
               </Navigation>
