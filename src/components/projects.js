@@ -27,7 +27,7 @@ class Projects extends Component{
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Personal Website
                                 </CardTitle>
-                                <CardText> This website was created as an attemp to brush up on my web development skills and to have a central place that I can showcase my portfolio.
+                                <CardText> This website was created so that I would have a central place that I can showcase my portfolio as a Software Engineer.
                                 </CardText>
                                 <CardText>August 2020</CardText>
                                 <CardActions border>
