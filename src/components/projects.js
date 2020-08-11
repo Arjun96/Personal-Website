@@ -27,8 +27,7 @@ class Projects extends Component{
                                 background: 'url(https://reactjs.org/logo-og.png) center / cover'}}>
                                     Personal Website
                                 </CardTitle>
-                                <CardText>I started this project in August 2020 as an attempt to create my first full stack web application from the ground up and brush up on my 
-                                    web development skills. This website will serve also serve as my portfolio and be used to showcase my projects.
+                                <CardText> This website was created as an attemp to brush up on my web development skills and to have a central place that I can showcase my portfolio.
                                 </CardText>
                                 <br></br>
                                 <CardText>August 2020</CardText>
@@ -49,18 +48,16 @@ class Projects extends Component{
                                 background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
                                 </CardTitle>
-                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. 
-                                    Collaborated with 3 other contestants to impose videos on top of real world objects. 
-                                    This app was awarded the first place prize at the event.
+                                <CardText> An Android App that allowed you to scan a user's face and receive the social media profiles that user has connected to the app.
                                 </CardText>
                                 <br></br>
                                 <CardText>March 2016</CardText>
                                 <CardActions border>
-                                    {/* Facecam Github */}
+                                    {/* Facetag Github */}
                                     <a href='https://github.com/Arjun96/Nhacks' target="_blank" rel="noopener noreferrer">
                                         <Button colored>Github</Button>
                                     </a>
-                                    {/* Facecam Devpost */}
+                                    {/* Facetag Devpost */}
                                     <a href='https://devpost.com/software/facetag-pmuhy0' target="_blank" rel="noopener noreferrer">
                                         <Button colored>
                                             Devpost </Button>
@@ -76,8 +73,7 @@ class Projects extends Component{
                                 background: 'url(https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif) center / cover'}}>
                                     Magicam
                                 </CardTitle>
-                                <CardText> This project was created over the course of 3 days during Hack Western 2 in 2016. Collaborated with 3 other contestants to
-                                    impose videos on top of real world objects. This app was awarded the first place prize at the event.
+                                <CardText> An iOS app that allowed the user to impose videos on top of real world objects. 
                                 </CardText>
                                 <br></br>
                                 <CardText>November 2015</CardText>
