@@ -12,7 +12,7 @@ function App() {
           <Header className="header-color" title="Arjun Luthra" scroll>
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
-                <Link to={pdf} target="_blank" download>Resume</Link>
+                <Link to={pdf} target="_blank">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
@@ -21,7 +21,7 @@ function App() {
           <Drawer>
               <Navigation>
                 <Link to="/">Home</Link>
-                <Link to={pdf} target="_blank" download>Resume</Link>
+                <Link to={pdf} target="_blank">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 {/* <Link to="/contact">Contact Me</Link> */}
