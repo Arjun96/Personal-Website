@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
-import {Link} from 'react-router-dom'
+import {Link, HashRouter} from 'react-router-dom'
 import pdf from './resume.pdf'
 
 function App() {
   return (
+    <HashRouter>
     <div className="App">
         <Layout>
           <Header className="header-color" title="Arjun Luthra" scroll>
@@ -33,6 +34,7 @@ function App() {
           </Content>
         </Layout>
     </div>
+    </HashRouter>
   );
 }
 
