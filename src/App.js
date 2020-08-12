@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import {Link, HashRouter} from 'react-router-dom'
-import pdf from './resume.pdf'
+import pdf from './documents/Arjun Luthra Resume.pdf'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Cell } from 'react-mdl'
-import avatar from './../images/photo_cropped_circle.png'
+import avatar from './../documents/photo_cropped_circle.png'
 
 class LandingPage extends Component{
 
