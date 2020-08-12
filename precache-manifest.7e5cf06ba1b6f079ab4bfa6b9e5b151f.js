@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40ce11ae0734e591857b39a0ef2943f5",
+    "revision": "2f2e4d04e51a73e31d9046d51edbc5de",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "b7ef74c6f263d0f154d5",
+    "revision": "edcf1dadd93a96f0bd04",
     "url": "/static/css/main.7ae6f3bb.chunk.css"
   },
   {
@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ec719262.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7ef74c6f263d0f154d5",
-    "url": "/static/js/main.a56b5f9f.chunk.js"
+    "revision": "edcf1dadd93a96f0bd04",
+    "url": "/static/js/main.f3cce926.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
     "url": "/static/js/runtime-main.ce89729d.js"
   },
   {
-    "revision": "c4c026092ec734de874c79cef0d1c712",
-    "url": "/static/media/photo_cropped_circle.c4c02609.png"
+    "revision": "b23342735282ed09c74306f82771cd31",
+    "url": "/static/media/Arjun Luthra Resume.b2334273.pdf"
   },
   {
-    "revision": "c662186537e1e2170aaa105014fe0219",
-    "url": "/static/media/resume.c6621865.pdf"
+    "revision": "c4c026092ec734de874c79cef0d1c712",
+    "url": "/static/media/photo_cropped_circle.c4c02609.png"
   }
 ]);
