@@ -92,7 +92,14 @@
   .contact-list a{
     font-size: 13px;
     text-align: left;
+  }
 
+  .contact-list {
+    padding-bottom: 100px;
+  }
+
+  .contact-grid p {
+    text-align: left;
   }
 }
 
