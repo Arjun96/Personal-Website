@@ -38,8 +38,10 @@
 /* Contacts Page Styling */
 
 .contact-body{
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -48,13 +50,14 @@
 }
 
 .contact-grid {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
-  background: white;
+  height: 100%;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
@@ -62,9 +65,24 @@
   font-family: 'Anton', sans-serif;
 }
 
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+}
+
+.contact-list i{
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.contact-list a{
+  color: black;
 }
 
 /* Contacts Page Styling */
