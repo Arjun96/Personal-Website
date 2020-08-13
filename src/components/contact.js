@@ -23,10 +23,7 @@ class Contact extends Component{
                             My name is Arjun Luthra and I have recently graduated with a degree in Computer Science at the University of Toronto as of May 2020. <br/><br/>
                             
                             I am currently seeking a full-time position as a Software Engineer. My skills include Java (object oriented prgramming),
-                            Python (general scripting and automation), React (web and native) as well as some Computer Networking (TCP/IP). <br/><br/>
-
-                            In my spare time, I like to help pick out parts to and help people build custom gaming computers and I also run a 100TB file server
-                            that acts as a personal backup and media server.
+                            Python (general scripting and automation), React (web and native) as well as some Computer Networking (TCP/IP).
                              
                             </p>
                     </Cell>
@@ -37,7 +34,7 @@ class Contact extends Component{
                             <List>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent>
                                         <i className="fa fa-envelope" aria-hidden="true"/>
                                         <a href="mailto:arjun.luthra@mail.utoronto.ca">
                                             arjun.luthra@mail.utoronto.ca
@@ -46,7 +43,7 @@ class Contact extends Component{
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
+                                    <ListItemContent>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
                                         <a href="tel:4162009996">
                                             (416) 200-9996
@@ -55,15 +52,13 @@ class Contact extends Component{
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'25px', fontFamily:'Anton', color:'black'}}>
+                                    <ListItemContent>
                                         <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                         <a href="https://www.linkedin.com/in/arjun-luthra/" target="_blank" rel="noopener noreferrer" title="Linkedin">
                                             linkedin.com/in/arjun-luthra/
                                         </a>
                                     </ListItemContent>
                                 </ListItem>    
-
-
                             </List>
                         </div>
                     </Cell>
