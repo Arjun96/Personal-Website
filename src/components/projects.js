@@ -91,8 +91,8 @@ class Projects extends Component{
                                     </a>
                                 </CardActions>
                             </Card>
-
                         </div>
+                        <strong>Copyright &copy; Arjun Luthra 2020</strong>
                     </Cell>
                 </Grid>
             </div>

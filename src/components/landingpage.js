@@ -41,8 +41,11 @@ class LandingPage extends Component{
                             </div>
                         </div>
                         <br/> <br/> <br/>
+                        <strong>Copyright &copy; Arjun Luthra 2020</strong>
+                        <br/> <br/> <br/>
                     </Cell>
                 </Grid>
+
             </div>
         )
     }

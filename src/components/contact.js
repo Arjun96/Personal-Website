@@ -62,9 +62,8 @@ class Contact extends Component{
                             </List>
                         </div>
                     </Cell>
+                    <strong>Copyright &copy; Arjun Luthra 2020</strong>
                 </Grid>
-
-
             </div>
 
         )
