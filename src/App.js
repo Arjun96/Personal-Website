@@ -31,9 +31,6 @@ function App() {
               <Main></Main>
           </Content>
         </Layout>
-        <div className="footer">
-            <p>What the fuck</p>
-        </div>
     </div>
     </HashRouter>
   );
