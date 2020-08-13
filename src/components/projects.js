@@ -39,7 +39,7 @@ class Projects extends Component{
                                 </CardActions>
                             </Card>
 
-                            <br></br>
+                            <br/> <br/>
 
                             {/* Facetag */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
@@ -63,7 +63,7 @@ class Projects extends Component{
                                 </CardActions>
                             </Card>
                             
-                            <br></br>
+                            <br/> <br/>
 
                             {/* Magicam */}
                             <Card shadow={5} style={{minWidth:'450', minHeight:'400px', margin: 'auto'}}>
