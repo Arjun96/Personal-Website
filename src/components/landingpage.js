@@ -40,13 +40,12 @@ class LandingPage extends Component{
                                 </a>
                             </div>
                         </div>
+                        <br/> <br/> <br/>
                     </Cell>
                 </Grid>
             </div>
-
         )
     }
-
 }
 
 export default LandingPage;
