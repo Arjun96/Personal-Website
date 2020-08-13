@@ -4,37 +4,6 @@
   background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
-  background: #667db6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding-bottom: 100px;
-}
-
-.category-tabs {
-  background: #667db6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding-top: 50px;
-}
-
 /* Contacts Page Styling */
 
 .contact-body{
@@ -46,7 +15,7 @@
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+  padding-top: 20px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -84,7 +53,12 @@
   color: black;
 }
 
+/* iPhone 11 Pro Max */
 @media only screen and (max-width: 1024px){
+
+  .contact-list {
+    padding-bottom: 100px;
+  }
   
   .contact-list i {
     font-size: 25px;
@@ -94,19 +68,45 @@
     text-align: left;
   }
 
-  .contact-list {
-    padding-bottom: 100px;
-  }
-
   .contact-grid p {
     text-align: left;
+  }
+
+}
+
+/* iPhone X */
+@media only screen and (max-width: 400px){
+  .contact-list a{
+    font-size: 11px;
+  }
+
+  .contact-list i {
+    font-size: 25px;
   }
 }
 
 /* Contacts Page Styling */
 
+
+/* Landing Page Styling*/ 
+
+.landing-grid {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .avatar-img {
-  padding-top: 2cm;
+  padding-top: 40px;
   height: 300px;
   width: auto;
 }
@@ -117,10 +117,6 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-}
-
-.category-tabs h1{
-  color:black;
 }
 
 .banner-text h1 {
@@ -134,6 +130,7 @@
   width: 50%;
   margin: auto;
 }
+
 .banner-text p {
   color: white;
   font-size: 20px;
@@ -145,7 +142,6 @@
   justify-content: center;
   width: 50%;
   margin: auto;
-
 }
 
 .social-links i {
@@ -154,9 +150,47 @@
   padding: 12px;
 }
 
+@media only screen and (max-width: 1024px){
+  .banner-text h1{
+    font-size: 44px;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+  .social-links i{
+    font-size:60px
+  }
+}
+
+/* Landing Page Styling*/ 
+
+
+/* Projects Page Styling*/
+
+.category-tabs {
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.category-tabs h1{
+  color:black;
+}
+
 .projects-grid {
   display: flex;
   text-align: left;
+  padding-bottom: 100px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1024px){
@@ -164,3 +198,4 @@
     flex-direction: column;
   }
 }
+/* Projects Page Styling*/
