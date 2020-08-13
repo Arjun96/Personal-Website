@@ -34,7 +34,7 @@ class LandingPage extends Component{
                                     <i className="fa fa-github-square"  aria-hidden="true"/>
                                 </a>
 
-                                {/* Email */}
+                                {/* Devpost */}
                                 <a href="https://devpost.com/ArjunL" target="_blank" rel="noopener noreferrer" title="Devpost">
                                     <i class="fa fa-code"  aria-hidden="true"/>
                                 </a>
