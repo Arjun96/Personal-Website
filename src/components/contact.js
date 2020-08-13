@@ -23,7 +23,7 @@ class Contact extends Component{
                             My name is Arjun Luthra and I have recently graduated with a degree in Computer Science at the University of Toronto as of May 2020. <br/><br/>
                             
                             I am currently seeking a full-time position as a Software Engineer. My skills include Java (object oriented prgramming),
-                            Python (general scripting and automation), React (web and native) as well as some computer networking experience (TCP/IP). <br/><br/>
+                            Python (general scripting and automation), React (web and native) as well as some Computer Networking (TCP/IP). <br/><br/>
 
                             In my spare time, I like to help pick out parts to and help people build custom gaming computers and I also run a 100TB file server
                             that acts as a personal backup and media server.
