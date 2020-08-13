@@ -18,7 +18,7 @@ class Contact extends Component{
                         />
                         <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>
                             
-                            Welcome to my personal website. <br/><br/>
+                            Hello, and welcome to my personal website. <br/><br/>
 
                             My name is Arjun Luthra and I have recently graduated with a degree in Computer Science at the University of Toronto as of May 2020. <br/><br/>
                             
