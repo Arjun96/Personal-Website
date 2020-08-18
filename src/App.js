@@ -13,7 +13,6 @@ function App() {
           <Header className="header-color" title="Arjun Luthra" scroll>
             <Navigation className="navigation-links">
                 <Link to="/">Home</Link>
-                <Link to="/contact">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
             </Navigation>
@@ -21,7 +20,6 @@ function App() {
           <Drawer title="Arjun Luthra">
               <Navigation>
                 <Link to="/">Home</Link>
-                <Link to="/contact">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
               </Navigation>
