@@ -47,7 +47,7 @@ class Projects extends Component{
                                 background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
                                 </CardTitle>
-                                <CardText> An Android App that allows the user to scan a person's face and receive the social media profiles that the person has connected to the app.
+                                <CardText> An Android App that allows the user to scan a person's face and receive their social media profiles.
                                 </CardText>
                                 <CardText>March 2016</CardText>
                                 <CardActions border>
