@@ -40,7 +40,7 @@ class LandingPage extends Component{
 
                             <Link to="/projects">projects</Link>
                             
-                            and if you have any further question, do not hesitate to send me an
+                            and if you have any further questions, do not hesitate to send me an
 
                             <a href="mailto:arjun.luthra@mail.utoronto.ca">email.</a>    
 

@@ -47,7 +47,7 @@ class Projects extends Component{
                                 background: 'url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/000/362/192/datas/medium.jpg) center / cover'}}>
                                     Facetag
                                 </CardTitle>
-                                <CardText> An Android App that allowed you to scan a user's face and receive the social media profiles that user has connected to the app.
+                                <CardText> An Android App that allows the user to scan a person's face and receive the social media profiles that the person has connected to the app.
                                 </CardText>
                                 <CardText>March 2016</CardText>
                                 <CardActions border>
@@ -71,7 +71,7 @@ class Projects extends Component{
                                 background: 'url(https://devpost-challengepost.netdna-ssl.com/assets/defaults/thumbnail-placeholder-42bcab8d8178b413922ae2877d8b0868.gif) center / cover'}}>
                                     Magicam
                                 </CardTitle>
-                                <CardText> An iOS app that allowed the user to impose videos on top of real world objects. 
+                                <CardText> An iOS app that allows the user to impose videos on top of real world objects. 
                                 </CardText>
                                 <br></br>
                                 <CardText>November 2015</CardText>
