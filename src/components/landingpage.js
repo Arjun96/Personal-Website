@@ -75,7 +75,7 @@ class LandingPage extends Component{
                                     {/* Github */}
                                     <a href="https://github.com/Arjun96" target="_blank" rel="noopener noreferrer" title="Devpost">
                                         <i class="fa fa-github-square"  aria-hidden="true"/>
-                                        https://github.com/Arjun96
+                                        github.com/Arjun96
                                     </a>
                                 </ListItem>
                                 </div>
@@ -84,7 +84,7 @@ class LandingPage extends Component{
                                     {/* Devpost */}
                                     <a href="https://devpost.com/ArjunL" target="_blank" rel="noopener noreferrer" title="Devpost">
                                         <i class="fa fa-code"  aria-hidden="true"/>
-                                        https://devpost.com/ArjunL
+                                        devpost.com/ArjunL
                                     </a>
                                 </ListItem>
 
