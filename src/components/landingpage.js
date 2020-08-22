@@ -65,7 +65,7 @@ class LandingPage extends Component{
                                 <ListItem>
                                     <ListItemContent>
                                         <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                                        <a href="https://www.linkedin.com/in/arjun-luthra/" target="_blank" rel="noopener noreferrer" title="Linkedin">
+                                        <a href="https://www.linkedin.com/in/arjun-luthra" target="_blank" rel="noopener noreferrer" title="Linkedin">
                                             linkedin.com/in/arjun-luthra/
                                         </a>
                                     </ListItemContent>
