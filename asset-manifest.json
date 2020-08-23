@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdc6dd39.chunk.css",
+    "main.css": "/static/css/main.5fd1beb2.chunk.css",
     "main.js": "/static/js/main.be1fa472.chunk.js",
     "main.js.map": "/static/js/main.be1fa472.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
@@ -9,10 +9,10 @@
     "static/js/2.9ac6c13f.chunk.js": "/static/js/2.9ac6c13f.chunk.js",
     "static/js/2.9ac6c13f.chunk.js.map": "/static/js/2.9ac6c13f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.575ca6165e39a06ce64130b3e3d21bdd.js": "/precache-manifest.575ca6165e39a06ce64130b3e3d21bdd.js",
+    "precache-manifest.92c0b794ec9f3b210ef3bdbbb68759d9.js": "/precache-manifest.92c0b794ec9f3b210ef3bdbbb68759d9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.cdc6dd39.chunk.css.map": "/static/css/main.cdc6dd39.chunk.css.map",
+    "static/css/main.5fd1beb2.chunk.css.map": "/static/css/main.5fd1beb2.chunk.css.map",
     "static/js/2.9ac6c13f.chunk.js.LICENSE.txt": "/static/js/2.9ac6c13f.chunk.js.LICENSE.txt",
     "static/media/Arjun Luthra Resume.pdf": "/static/media/Arjun Luthra Resume.b6f8bf10.pdf",
     "static/media/photo_cropped_circle.png": "/static/media/photo_cropped_circle.c4c02609.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.ce89729d.js",
     "static/css/2.e4346227.chunk.css",
     "static/js/2.9ac6c13f.chunk.js",
-    "static/css/main.cdc6dd39.chunk.css",
+    "static/css/main.5fd1beb2.chunk.css",
     "static/js/main.be1fa472.chunk.js"
   ]
 }
