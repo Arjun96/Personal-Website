@@ -40,6 +40,7 @@
 .landing-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+  font-size: medium;
 }
 
 .contact-list i{
@@ -80,6 +81,7 @@
 
   .contact-grid p {
     text-align: left;
+    font-size: small;
   }
 
 }
@@ -92,6 +94,11 @@
 
   .contact-list i {
     font-size: 28px;
+  }
+
+  .contact-grid p {
+    text-align: left;
+    font-size: small;
   }
 }
 
