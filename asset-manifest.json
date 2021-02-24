@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d1a9469.chunk.css",
-    "main.js": "/static/js/main.d02c09be.chunk.js",
-    "main.js.map": "/static/js/main.d02c09be.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/css/2.e4346227.chunk.css": "/static/css/2.e4346227.chunk.css",
-    "static/js/2.9ac6c13f.chunk.js": "/static/js/2.9ac6c13f.chunk.js",
-    "static/js/2.9ac6c13f.chunk.js.map": "/static/js/2.9ac6c13f.chunk.js.map",
+    "main.css": "/static/css/main.ec595bd5.chunk.css",
+    "main.js": "/static/js/main.4a92686a.chunk.js",
+    "main.js.map": "/static/js/main.4a92686a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bcdd1ae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bcdd1ae.js.map",
+    "static/css/2.86fbdad3.chunk.css": "/static/css/2.86fbdad3.chunk.css",
+    "static/js/2.4a9ba3d2.chunk.js": "/static/js/2.4a9ba3d2.chunk.js",
+    "static/js/2.4a9ba3d2.chunk.js.map": "/static/js/2.4a9ba3d2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.48806d94e8d549951dbdde17fb397701.js": "/precache-manifest.48806d94e8d549951dbdde17fb397701.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.e4346227.chunk.css.map": "/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.1d1a9469.chunk.css.map": "/static/css/main.1d1a9469.chunk.css.map",
-    "static/js/2.9ac6c13f.chunk.js.LICENSE.txt": "/static/js/2.9ac6c13f.chunk.js.LICENSE.txt",
-    "static/media/Arjun Luthra Resume.pdf": "/static/media/Arjun Luthra Resume.aae5fc2b.pdf",
-    "static/media/photo_cropped_circle.png": "/static/media/photo_cropped_circle.c4c02609.png"
+    "static/css/2.86fbdad3.chunk.css.map": "/static/css/2.86fbdad3.chunk.css.map",
+    "static/css/main.ec595bd5.chunk.css.map": "/static/css/main.ec595bd5.chunk.css.map",
+    "static/js/2.4a9ba3d2.chunk.js.LICENSE.txt": "/static/js/2.4a9ba3d2.chunk.js.LICENSE.txt",
+    "static/media/Arjun Luthra Resume.309c758a.pdf": "/static/media/Arjun Luthra Resume.309c758a.pdf",
+    "static/media/photo_cropped_circle.d6fe1c58.png": "/static/media/photo_cropped_circle.d6fe1c58.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce89729d.js",
-    "static/css/2.e4346227.chunk.css",
-    "static/js/2.9ac6c13f.chunk.js",
-    "static/css/main.1d1a9469.chunk.css",
-    "static/js/main.d02c09be.chunk.js"
+    "static/js/runtime-main.3bcdd1ae.js",
+    "static/css/2.86fbdad3.chunk.css",
+    "static/js/2.4a9ba3d2.chunk.js",
+    "static/css/main.ec595bd5.chunk.css",
+    "static/js/main.4a92686a.chunk.js"
   ]
 }
